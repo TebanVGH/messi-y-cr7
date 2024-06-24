@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: rgb(233, 60, 60);
+    background-color: #139313;
+    font-size: 70px;
+    text-align:center;
+}
+
+.balones_de_oro{
+    color: rgb(224, 224, 3);
+    background-color: rgb(71, 69, 69);
+}
+
+.champions{
+    color: white;
+    background-color: gray;
+}
+
+.tamaño_nav{
+    font-size: 30px;
+}
+
+h2{text-align: center;}
+
+.redes_align{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.color_texto{
+    color: white;
+}
+
+.jersey-25-regular {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+
+  .links{
+  position: absolute;
+  left: 180px;
+  bottom: 740px;
+  }
+
+  .card{
+    background-color: #139313;
+    width: 300px;
+    text-align: center;
+    border: 5px dotted rgb(255, 157, 0); 
+    padding: 10px;
+    border-radius: 15px;
+  margin: 0 auto
+  }
+  .card img{
+    width: 100%;
+  }
+ .contenedor_limite{
+    background-color: rgb(128, 0, 0);
+    max-width: 400px;
+    margin: 0 auto;
+    border: 5px solid rgb(107, 107, 107);
+ }
+ footer{
+    background-color: #139313;
+ }
+ .parrafos{
+    padding: 10px 50px 10px 50px;
+    max-width: 1650px;
+    margin:0 auto
+ }
+ .ultimo_parrafo{
+    padding: 10px 50px 10px 50px   ;
+    font-size: 35px;
+    max-width: 1650px;
+    margin: 0 auto;
+ }
+ .contenedor_limite_box{
+    margin: auto 0;
+    background-color: rgb(116, 4, 4);
+    border: 5px solid;
+}
+.padre_box{
+    background-color: rgb(128, 0, 0);
+    display: flex;
+    border: 5px solid rgb(107, 107, 107);
+    padding: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+footer li :hover{
+    color: red;
+}
+nav ul :hover{
+    color: red;
+}
+.contenedor_limite_bootstrap{
+    max-width: 600px;
+    margin: 0 auto;
+}
